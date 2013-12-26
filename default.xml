@@ -16,38 +16,11 @@
       <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
       <project path="art" name="platform/art" />
       <project path="bionic" name="platform/bionic" groups="pdk" />
-      <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-      <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
       <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
       <project path="cts" name="platform/cts" groups="cts" />
       <project path="dalvik" name="platform/dalvik" />
-      <project path="developers/build" name="platform/developers/build" />
-      <project path="developers/demos" name="platform/developers/demos" />
-      <project path="developers/docs" name="platform/developers/docs" />
-      <project path="developers/samples/android" name="platform/developers/samples/android" />
       <project path="development" name="platform/development" />
-      <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-      <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-      <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-      <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-      <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
       <project path="device/common" name="device/common" />
-      <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-      <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-      <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-      <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-      <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-      <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-      <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-      <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-      <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-      <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-      <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-      <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-      <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-      <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-      <project path="device/sample" name="device/sample" groups="pdk" />
-      <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
       <project path="docs/source.android.com" name="platform/docs/source.android.com" />
       <project path="external/aac" name="platform/external/aac" groups="pdk" />
       <project path="external/android-clat" name="platform/external/android-clat" />
@@ -104,8 +77,6 @@
       <project path="external/droiddriver" name="platform/external/droiddriver" />
       <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
       <project path="external/easymock" name="platform/external/easymock" />
-      <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
-      <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
       <project path="external/eigen" name="platform/external/eigen" />
       <project path="external/elfutils" name="platform/external/elfutils" />
       <project path="external/embunit" name="platform/external/embunit" />
@@ -289,10 +260,6 @@
       <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
       <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
       <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-      <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-      <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-      <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-      <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
       <project path="libcore" name="platform/libcore" />
       <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
       <project path="ndk" name="platform/ndk" />
@@ -301,7 +268,6 @@
       <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
       <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
       <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-      <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
       <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
       <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
       <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -311,27 +277,22 @@
       <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
       <project path="packages/apps/Email" name="platform/packages/apps/Email" />
       <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-      <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
       <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
       <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
       <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
       <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-      <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
       <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
-      <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
       <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
       <project path="packages/apps/Music" name="platform/packages/apps/Music" />
       <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
       <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
       <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
       <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-      <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
       <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
       <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
       <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
       <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
       <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
-      <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
       <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
       <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
       <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -342,9 +303,6 @@
       <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
       <project path="packages/experimental" name="platform/packages/experimental" />
       <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-      <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-      <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
-      <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
       <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
       <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
       <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
@@ -378,9 +336,6 @@
       <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
       <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
       <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
-      <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
-      <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-      <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
       <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
       <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
       <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
@@ -419,16 +374,6 @@
       <project path="system/netd" name="platform/system/netd" groups="pdk" />
       <project path="system/security" name="platform/system/security" groups="pdk" />
       <project path="system/vold" name="platform/system/vold" groups="pdk" />
-      <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-      <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-      <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
-      <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-      <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
       <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-      <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-      <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-      <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-      <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-      <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
     </manifest>
