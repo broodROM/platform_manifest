@@ -1,11 +1,14 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
 
-      <remote  name="aosp"
-               fetch=".." />
-      <default revision="refs/tags/android-4.4.2_r1"
-               remote="aosp"
-               sync-j="4" />
+    <remote name="aosp"
+           fetch="https://android.googlesource.com/" />
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-j="4" />
+
+  <remote name="github"
+           fetch="git://github.com/" />
 
       <project path="build" name="platform/build" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
