@@ -241,6 +241,7 @@
       <project path="frameworks/volley" name="platform/frameworks/volley" />
       <project path="frameworks/webview" name="platform/frameworks/webview" />
       <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+      <project path="kernel/samsung/jf" name="broodROM/platform_kernel_samsung_jf" remote="github" revision="kk-4.4" />
       <project path="hardware/akm" name="platform/hardware/akm" />
       <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
       <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
