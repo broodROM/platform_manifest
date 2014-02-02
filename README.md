@@ -33,6 +33,5 @@ Building:
 
 broodROM Team:
 -----------------
-- broodplank1337
+- broodplank
 - hallengreenn
-- AnguisCaptor
