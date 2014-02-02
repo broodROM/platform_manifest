@@ -242,25 +242,29 @@
       <project path="frameworks/webview" name="platform/frameworks/webview" />
       <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
       <project path="kernel/samsung/jf" name="broodROM/platform_kernel_samsung_jf" remote="github" revision="kk-4.4" />
-      <project path="hardware/akm" name="platform/hardware/akm" />
-      <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-      <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-      <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-      <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-      <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-      <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
-      <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-      <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-      <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
-      <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-      <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
-      <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-      <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-      <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-      <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-      <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-      <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-      <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+      <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" remote="github" revision="cm-11.0" />
+      <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
+      <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" revision="cm-11.0" />
+      <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
+      <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" remote="github" revision="cm-11.0" />
+      <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-11.0" />
+      <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-11.0" />
+      <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-11.0" />
+      <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="github" revision="cm-11.0" />
       <project path="libcore" name="platform/libcore" />
       <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
       <project path="ndk" name="platform/ndk" />
