@@ -44,7 +44,8 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="AOSP-S4-KK/platform_external_chromium_org" remote="github" revision="kk-4.4" />  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
+  <project path="external/chromium_org" name="AOSP-S4-KK/platform_external_chromium_org" remote="github" revision="kk-4.4" />  
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" />
@@ -67,14 +68,16 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="AOSP-S4-KK/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/clang" name="AOSP-S4-KK/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="AOSP-S4-KK/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />  <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/e2fsprogs" name="AOSP-S4-KK/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
@@ -100,7 +103,8 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="AOSP-S4-KK/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
+  <project path="external/icu4c" name="AOSP-S4-KK/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/iputils" name="platform/external/iputils" />
