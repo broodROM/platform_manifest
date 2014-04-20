@@ -24,7 +24,10 @@
   <project path="device/samsung/jflte" name="broodROM/platform_device_samsung_jflte" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/samsung/hlte" name="broodROM/platform_device_samsung_hlte" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="broodROM/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="broodROM/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="device/samsung/qcom-common" name="broodROM/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="device/huawei/u8860" name="broodROM/platform_device_huawei_u8860" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/huawei/msm7x30-common" name="broodROM/platform_device_huawei_msm7x30-common" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -249,6 +252,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="kernel/samsung/jf" name="broodROM/platform_kernel_samsung_jf" remote="github" revision="kk-TEST" />
+  <project path="kernel/huawei/honor" name="broodROM/platform_kernel_huawei_honor" remote="github" revision="kk-4.4" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
@@ -369,6 +373,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="vendor/samsung" name="broodROM/platform_vendor_samsung" remote="github" revision="kk-4.4" />
+  <project path="vendor/huawei" name="broodROM/platform_vendor_huawei" remote="github" revision="kk-4.4" />
   <project path="vendor/broodROM" name="broodROM/platform_vendor_broodrom" remote="github" revision="kk-4.4" />
-
 </manifest>
