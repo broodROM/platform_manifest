@@ -4,7 +4,7 @@ broodROM Manifest
 broodROM is a custom ROM based on AOSP 4.4.2 KitKat (https://github.com/AOSP-S4-KK) which aims for very high performance, a good battery life and great usability.
 
 
-> Current Phase: Initialisation Phase
+> Current Phase: Development Started
 
 
 
@@ -26,12 +26,3 @@ Building:
 * . build/envsetup.sh
 * lunch
 * make otapackage
-
-
-
-
-
-broodROM Team:
------------------
-- broodplank
-- hallengreenn
