@@ -34,12 +34,11 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
-  <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="broodROM/platform_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
+  <project path="external/busybox" name="broodROM/platform_external_busybox" remote="github" revision="kk-4.4" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
@@ -47,7 +46,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="broodROM/platform_external_chromium_org" remote="github" revision="kk-4.4" />  
+  <project path="external/chromium_org" name="broodROM/platform_external_chromium_org" remote="github" revision="kk-4.4" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -71,7 +70,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="broodROM/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/clang" name="broodROM/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -79,7 +78,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="broodROM/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/e2fsprogs" name="broodROM/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -90,10 +89,11 @@
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="broodROM/platform_external_fsck_msdos" remote="github" revision="kk-4.4" /> 
+  <project path="external/fsck_msdos" name="broodROM/platform_external_fsck_msdos" remote="github" revision="kk-4.4" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
+  <project path="external/f2fs-tools" name="broodROM/platform_external_f2fs-tools" remote="github" revision="kk-4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -106,7 +106,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="broodROM/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/icu4c" name="broodROM/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -136,12 +136,12 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="github" revision="cm-11.0"  groups="pdk" /> 
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" remote="github" revision="cm-11.0"  />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
@@ -185,10 +185,11 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="broodROM/platform_external_sepolicy" remote="github" revision="kk-4.4" groups="pdk" /> 
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="broodROM/platform_external_skia" remote="github" revision="kk-4.4" />
+  <project path="external/s4utils" name="broodplank/android_external_s4utils" remote="github" revision="master" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
