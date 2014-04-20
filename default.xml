@@ -14,11 +14,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AOSP-S4-KK/platform_art" remote="github" revision="kk-4.4" />
-  <project path="bionic" name="AOSP-S4-KK/platform_bionic" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="art" name="broodROM/platform_art" remote="github" revision="kk-4.4" />
+  <project path="bionic" name="broodROM/platform_bionic" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="AOSP-S4-KK/platform_dalvik" remote="github" revision="kk-4.4" />
+  <project path="dalvik" name="broodROM/platform_dalvik" remote="github" revision="kk-4.4" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -44,7 +44,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="AOSP-S4-KK/platform_external_chromium_org" remote="github" revision="kk-4.4" />  
+  <project path="external/chromium_org" name="broodROM/platform_external_chromium_org" remote="github" revision="kk-4.4" />  
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -68,7 +68,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="AOSP-S4-KK/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/clang" name="broodROM/platform_external_clang" groups="pdk" remote="github" revision="kk-4.4" />  
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -76,7 +76,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="AOSP-S4-KK/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/e2fsprogs" name="broodROM/platform_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />  
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -89,7 +89,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="AOSP-S4-KK/platform_external_fsck_msdos" remote="github" revision="kk-4.4" /> 
+  <project path="external/fsck_msdos" name="broodROM/platform_external_fsck_msdos" remote="github" revision="kk-4.4" /> 
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
@@ -103,7 +103,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="AOSP-S4-KK/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />  
+  <project path="external/icu4c" name="broodROM/platform_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />  
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -185,7 +185,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="AOSP-S4-KK/platform_external_skia" remote="github" revision="kk-4.4" />
+  <project path="external/skia" name="broodROM/platform_external_skia" remote="github" revision="kk-4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -357,15 +357,15 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="AOSP-S4-KK/platform_system_core" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="system/extras" name="AOSP-S4-KK/platform_system_extras" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/core" name="broodROM/platform_system_core" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/extras" name="broodROM/platform_system_extras" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="github" revision="cm-11.0" /> 
-  <project path="system/vold" name="AOSP-S4-KK/platform_system_vold" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/vold" name="broodROM/platform_system_vold" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="vendor/samsung" name="AOSP-S4-KK/platform_vendor_samsung" remote="github" revision="kk-4.4" />
+  <project path="vendor/samsung" name="broodROM/platform_vendor_samsung" remote="github" revision="kk-4.4" />
   <project path="vendor/broodROM" name="broodROM/platform_vendor_broodrom" remote="github" revision="kk-4.4" />
 
 </manifest>
