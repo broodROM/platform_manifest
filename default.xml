@@ -10,7 +10,7 @@
   <remote name="github"
            fetch="git://github.com/" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="broodROM/platform_build" groups="pdk" remote="github" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
