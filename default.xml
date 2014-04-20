@@ -248,7 +248,7 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-  <project path="kernel/samsung/jf" name="broodROM/platform_kernel_samsung_jf" remote="github" revision="kk-4.4" />
+  <project path="kernel/samsung/jf" name="broodROM/platform_kernel_samsung_jf" remote="github" revision="kk-TEST" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
@@ -276,7 +276,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
- <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="broodROM/platform_packages_apps_Bluetooth" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Browser" name="broodROM/platform_packages_apps_Browser" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
